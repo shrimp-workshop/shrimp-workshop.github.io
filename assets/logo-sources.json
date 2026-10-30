@@ -1,0 +1,65 @@
+{
+  "logos": [
+    {
+      "file": "tum.svg",
+      "institution": "Technical University of Munich",
+      "source_page": "https://www.tum.de/en/",
+      "asset_url": "https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg",
+      "sha256": "01709a6b770a9ccc21e10d234cc9bbfc0ffd1161416b803377fa74e63836245a"
+    },
+    {
+      "file": "manchester.png",
+      "institution": "University of Manchester",
+      "source_page": "https://www.manchester.ac.uk/",
+      "asset_url": "https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png",
+      "sha256": "db19670f4bbe5e69a6216c71ba5e85d345f8c31c9ab9d09101ba103fdd3b8e44"
+    },
+    {
+      "file": "tuhh.svg",
+      "institution": "Hamburg University of Technology",
+      "source_page": "https://www.tuhh.de/tuhh/en/startpage",
+      "asset_url": "https://www.tuhh.de/_assets/1af0d9ff6f1306e42935444821553917/Assets/images/logo-new.svg",
+      "sha256": "46ac6afcae9f4397fd0a61a2a0c4bc62632a346141ca93e826b9a5cfa209888d"
+    },
+    {
+      "file": "lsu.svg",
+      "institution": "Louisiana State University",
+      "source_page": "https://www.lsu.edu/",
+      "asset_url": "https://www.lsu.edu/_resources_fierce/svgs/lsu-logo.svg",
+      "sha256": "2a9fa36cd380e0ad5781b996e36cd705f02ea8bf6c9515e45383c03c0d1a78c9"
+    },
+    {
+      "file": "inria.svg",
+      "institution": "Inria",
+      "source_page": "https://new.inria.cl/es/node/616",
+      "asset_url": "https://files.inria.fr/dircom/extranet/LOGOS_pack_web.zip",
+      "sha256": "2ff9f11355b458e7355e901ee59398ef9ff74888839294b2907b7afb2d6c4066",
+      "archive_member": "LOGOS_pack_web/svg/inr_logo_rouge.svg"
+    },
+    {
+      "file": "robotarium.png",
+      "institution": "The National Robotarium",
+      "source_page": "https://thenationalrobotarium.com/",
+      "asset_url": "https://thenationalrobotarium.com/wp-content/uploads/Robotarium.png",
+      "sha256": "44ce0e31488144a500398cb8e3709d96bba810d11a0dbc3d14323ee35915aaeb"
+    },
+    {
+      "file": "mbari.svg",
+      "institution": "Monterey Bay Aquarium Research Institute",
+      "source_page": "https://annualreport.mbari.org/2023/",
+      "asset_url": "https://annualreport.mbari.org/2023/",
+      "extraction": "Unmodified inline header SVG from the official website.",
+      "sha256": "5cea3302b0ea88c08ce0128f11f7e4a190af50f4456b37d89b6945ec7684f1f7"
+    },
+    {
+      "file": "heriot-watt.svg",
+      "institution": "Heriot-Watt University",
+      "source_page": "https://www.hw.ac.uk/",
+      "asset_url": "https://www.hw.ac.uk/",
+      "extraction": "Unmodified inline header SVG from the official website.",
+      "sha256": "2bebf35719e961e95b5592fca47d58c43111e095e8d65438417237728511aefa"
+    }
+  ],
+  "usage": "Institutional affiliations of named organizers and speakers. These logos do not imply sponsorship.",
+  "rights": "Institutional marks remain the property of their respective owners."
+}

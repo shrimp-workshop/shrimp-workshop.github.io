@@ -1,0 +1,82 @@
+{
+  "portraits": [
+    {
+      "file": "corina-barbalata.png",
+      "person": "Corina Barbalata",
+      "source_page": "https://www.lsu.edu/eng/mie/people/faculty/barbalata.php"
+    },
+    {
+      "file": "marco-tognon.jpg",
+      "person": "Marco Tognon",
+      "source_page": "https://marco-tognon-robotics.com/"
+    },
+    {
+      "file": "stefan-sosnowski.webp",
+      "person": "Stefan Sosnowski",
+      "source_page": "https://www.ce.cit.tum.de/en/itr/sosnowski/"
+    },
+    {
+      "file": "alp-ortakci.jpg",
+      "person": "Alp Ortakci",
+      "source_page": "https://www.alportakci.com/",
+      "image_url": "https://www.alportakci.com/img/alp_hu_ba9ccb40395e9c36.jpg",
+      "bytes": 17108,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "seyonne-leslie-dalley.png",
+      "person": "Seyonne Leslie-Dalley",
+      "source_page": "https://sladalley.github.io/",
+      "image_url": "https://sladalley.github.io/images/profile.png",
+      "bytes": 1621789,
+      "content_type": "image/png"
+    },
+    {
+      "file": "nathalie-bauschmann.jpg",
+      "person": "Nathalie Bauschmann",
+      "source_page": "https://www.tuhh.de/mum/team/wimi/nathalie-bauschmann",
+      "image_url": "https://kontakt.tuhh.de/de/kdbimg.php?id=2g94",
+      "bytes": 10648,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "pawel-ladosz.jpg",
+      "person": "Pawel Ladosz",
+      "source_page": "https://cradlerobotics.co.uk/about/team/",
+      "image_url": "https://cradlerobotics.co.uk/wp-content/uploads/2025/11/team-cradle-pawel.jpg",
+      "bytes": 122434,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "michele-grimaldi.png",
+      "person": "Michele Grimaldi",
+      "source_page": "https://ignaciocarlucho.github.io/People/",
+      "image_url": "https://ignaciocarlucho.github.io/assets/img/profiles/michele.png",
+      "bytes": 25463,
+      "content_type": "image/png"
+    },
+    {
+      "file": "giancarlo-troni.jpg",
+      "person": "Giancarlo Troni",
+      "source_page": "https://annualreport.mbari.org/2023/",
+      "image_url": "https://mbari.imgix.net/uploads/Troni_Giancarlo2.jpg?auto=format,compress&fit=crop&fp-x=0.5&fp-y=0.5&w=360&h=360",
+      "bytes": 17016,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "daniel-duecker.jpg",
+      "person": "Daniel A. Duecker",
+      "source_page": "https://hippocampusrobotics.github.io/people/",
+      "image_url": "https://hippocampusrobotics.github.io/images/people/daniel_q.jpg",
+      "bytes": 1284457
+    }
+  ],
+  "rights": "Public professional profile images used in the review draft. Rights remain with their respective owners.",
+  "missing": [
+    {
+      "person": "Moritz Graf",
+      "source_checked": "https://portal.fis.tum.de/en/persons/moritz-graf/",
+      "status": "No portrait on the official research profile. Initials retained pending a verified source."
+    }
+  ]
+}
