@@ -69,14 +69,16 @@
       "source_page": "https://hippocampusrobotics.github.io/people/",
       "image_url": "https://hippocampusrobotics.github.io/images/people/daniel_q.jpg",
       "bytes": 1284457
+    },
+    {
+      "file": "moritz-graf.jpg",
+      "person": "Moritz Graf",
+      "source": "Portrait supplied by Alp Ortakci for the workshop website.",
+      "received": "2026-11-02",
+      "bytes": 33102,
+      "content_type": "image/jpeg"
     }
   ],
-  "rights": "Public professional profile images used in the review draft. Rights remain with their respective owners.",
-  "missing": [
-    {
-      "person": "Moritz Graf",
-      "source_checked": "https://portal.fis.tum.de/en/persons/moritz-graf/",
-      "status": "No portrait on the official research profile. Initials retained pending a verified source."
-    }
-  ]
+  "rights": "Portraits from public professional profiles or supplied for the workshop website. Rights remain with their respective owners.",
+  "missing": []
 }
