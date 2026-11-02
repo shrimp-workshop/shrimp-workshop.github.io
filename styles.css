@@ -695,3 +695,85 @@ h1>span:not(.title-period){color:var(--hero-accent)}
   .theme-control{grid-template-columns:repeat(3,38px);padding:2px}.theme-option{width:38px}.theme-control::before{width:38px;top:2px;left:2px}
 }
 @media print{.site-header,.review-banner,.hero-visual,.hero-actions,.theme-control,.hero-waves,.scroll-link,.credits,.contact-section,.site-footer{display:none!important}body{background:#fff!important;color:#173640!important;font-size:11pt}.container{width:100%}.hero-grid,.overview-grid,.programme-grid{display:block}.hero,.speakers{background:none}.section{padding:25px 0}.programme-intro{position:static}.hero-copy{padding:0}h1{font-size:36pt}h2{font-size:25pt}.hero-meta{padding:15px 0}.speaker-grid{gap:20px}.speaker-portrait{max-width:150px}.schedule tr,.organizer,.speaker{break-inside:avoid}.programme-intro .small-note{max-width:none}.theme-grid{margin-top:25px}.schedule{margin-top:25px}.organizer-grid{column-gap:30px}.outcome{padding:20px}}
+
+/* Shared navigation: native disclosure keeps People usable without scripts. */
+.nav-people{position:relative}
+.nav-people summary{display:flex;align-items:center;gap:7px;list-style:none;cursor:pointer;padding-block:12px;border-bottom:1px solid transparent;white-space:nowrap}
+.nav-people summary::-webkit-details-marker{display:none}
+.nav-people summary svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;transition:transform .18s}
+.nav-people[open] summary svg{transform:rotate(180deg)}
+.nav-people summary:hover,.nav-people[open] summary,.nav-people.has-current summary{color:var(--accent);border-color:var(--accent)}
+.people-links{position:absolute;top:calc(100% + 12px);left:-18px;min-width:210px;padding:8px;background:var(--surface-raised);border:1px solid var(--line);border-radius:8px;box-shadow:0 16px 32px #00000018}
+.main-nav .people-links a{display:block;padding:12px 16px;border:0;border-radius:4px}
+.main-nav .people-links a:hover,.main-nav .people-links a[aria-current]{background:var(--accent-soft);color:var(--accent)}
+@media(max-width:1200px){
+  .nav-people{width:100%}.nav-people summary{justify-content:space-between;padding-block:15px;font-size:18px}
+  .people-links{position:static;box-shadow:none;min-width:0;margin:0 0 12px;border-radius:4px}
+}
+
+/* The call presents contribution formats and submission status together. */
+.cfp-hero{padding:64px 0 0;background:var(--surface);border-bottom:1px solid var(--line)}
+.cfp-hero>.container>.eyebrow{color:var(--accent);font-size:13px;letter-spacing:1.6px}
+.cfp-hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:96px;align-items:center;padding-block:36px 52px}
+.cfp-hero h1{font-size:clamp(72px,7.5vw,110px);line-height:.98;letter-spacing:-.055em;margin:0}
+.cfp-hero h1>span{color:var(--accent)}
+.cfp-deck>p:first-child{font:500 clamp(26px,2.5vw,34px)/1.3 'Space Grotesk',sans-serif;letter-spacing:-.025em}
+.cfp-deck>p+p{font-size:19px;line-height:1.7;color:var(--muted);max-width:43ch;margin-top:20px}
+.cfp-deck .text-link{color:var(--accent);margin-top:16px;font-size:16px}
+.cfp-at-a-glance{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin:0;padding:28px 0 36px;border-top:1px solid var(--line)}
+.cfp-at-a-glance>div+div{padding-left:36px;border-left:1px solid var(--line)}
+.cfp-at-a-glance dt{font-size:14px;line-height:1.5;color:var(--muted);font-weight:600}
+.cfp-at-a-glance dd{display:flex;align-items:baseline;gap:16px;margin:10px 0 0;line-height:1.3}
+.cfp-at-a-glance strong{font:500 64px/1 'Space Grotesk',sans-serif;letter-spacing:-.05em;color:var(--accent)}
+.cfp-at-a-glance dd>span{font-size:16px}
+.cfp-content-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:80px;align-items:start}
+.cfp-copy .section-kicker,.cfp-participation .section-kicker{margin-bottom:20px;color:var(--accent);font-size:13px}
+.cfp-copy h2{font-size:clamp(32px,3vw,44px)}
+.cfp-copy>p:not(.section-kicker){font-size:18px;line-height:1.75;color:var(--muted);margin-top:24px}
+.cfp-topics{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:28px 32px;padding:0;margin:32px 0 0}
+.cfp-topics li{border-top:1px solid var(--line);padding-top:20px}
+.cfp-topics h3{font-size:22px;letter-spacing:-.025em;margin-bottom:12px}
+.cfp-topics p{font-size:16px;line-height:1.75;color:var(--muted)}
+.cfp-copy>p.cfp-cross-domain{font-size:16px;border-left:2px solid var(--accent);padding-left:18px;margin-top:32px}
+.cfp-submission{padding:36px;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent)}
+.cfp-submission .eyebrow{font-size:11px;letter-spacing:1.3px;color:var(--accent);margin-bottom:22px}
+.cfp-submission h2{font-size:34px;line-height:1.15;letter-spacing:-.035em;margin-bottom:24px}
+.cfp-submission>p:not(.eyebrow),.cfp-submission>ul{font-size:17px;line-height:1.75;color:var(--muted)}
+.cfp-submission>ul{padding-left:20px;margin-block:16px 24px}.cfp-submission>ul>li{padding-left:4px;margin-block:5px}
+.cfp-submission-facts{margin:0}.cfp-submission-facts>div{border-top:1px solid var(--line);padding-block:18px}
+.cfp-submission-facts dt{font-size:13px;line-height:1.5;color:var(--muted);margin-bottom:7px}.cfp-submission-facts dd{font-size:18px;font-weight:650;margin:0}
+.cfp-submission>p.cfp-submission-note{font-size:14px;border-top:1px solid var(--line);padding-top:18px}
+.cfp-submission .text-link{color:var(--accent);margin-top:14px;font-size:16px}
+.cfp-participation{background:var(--surface);border-top:1px solid var(--line)}
+.cfp-participation .section-heading{align-items:end;gap:60px;margin-bottom:44px}
+.cfp-participation .section-heading>p{font-size:18px;max-width:37ch}
+.cfp-outcomes{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:44px;padding:0;margin:0}
+.cfp-outcomes li{border-top:1px solid var(--line);padding-top:24px}
+.cfp-step{display:block;font:500 16px/1.4 'Space Grotesk',sans-serif;color:var(--accent);margin-bottom:22px}
+.cfp-outcomes h3{font-size:28px;letter-spacing:-.025em;margin-bottom:16px}
+.cfp-outcomes p{font-size:17px;line-height:1.75;color:var(--muted)}
+.cfp-challenge-link{display:flex;align-items:center;justify-content:space-between;gap:48px;border-top:1px solid var(--line);margin-top:56px;padding-top:32px}
+.cfp-challenge-link .eyebrow{font-size:11px;letter-spacing:1.2px;color:var(--accent);margin-bottom:12px}
+.cfp-challenge-link h3{font-size:27px;letter-spacing:-.025em}
+.cfp-challenge-link p:not(.eyebrow){font-size:16px;color:var(--muted);max-width:65ch;margin-top:12px}
+.cfp-challenge-link .text-link{flex-shrink:0;color:var(--accent);font-size:16px}
+@media(max-width:1100px){.cfp-content-grid{gap:40px}.cfp-submission{padding:28px}.cfp-hero-grid{gap:44px}.cfp-outcomes{gap:28px}}
+@media(max-width:900px){
+  .cfp-content-grid{grid-template-columns:1fr;gap:40px}.cfp-copy>p{max-width:68ch}.cfp-submission{max-width:680px}
+  .cfp-hero-grid{gap:36px}.cfp-at-a-glance{gap:24px}.cfp-at-a-glance>div+div{padding-left:24px}.cfp-at-a-glance dd{flex-wrap:wrap;gap:8px}
+  .cfp-participation .section-heading{align-items:start;flex-direction:column;gap:24px}.cfp-participation .section-heading>p{max-width:60ch}
+  .cfp-challenge-link{align-items:start;flex-direction:column;gap:16px}
+}
+@media(max-width:700px){
+  .cfp-hero{padding-top:36px}.cfp-hero>.container>.eyebrow{font-size:11px}
+  .cfp-hero-grid{grid-template-columns:1fr;gap:28px;padding-block:28px 36px}.cfp-hero h1{font-size:clamp(64px,15vw,86px)}
+  .cfp-deck>p:first-child{font-size:27px}.cfp-deck>p+p{font-size:18px;margin-top:16px}.cfp-deck .text-link{margin-top:12px}
+  .cfp-at-a-glance{gap:14px;padding-block:22px 28px}.cfp-at-a-glance>div+div{padding-left:14px}.cfp-at-a-glance dt{font-size:12px;min-height:36px}
+  .cfp-at-a-glance dd{display:block;margin-top:12px}.cfp-at-a-glance strong{font-size:48px}.cfp-at-a-glance dd>span{display:block;font-size:13px;margin-top:8px;line-height:1.5}
+  .cfp-copy h2{font-size:34px}.cfp-copy>p:not(.section-kicker){font-size:17px}.cfp-topics{grid-template-columns:1fr;gap:22px}.cfp-topics h3{font-size:24px}
+  .cfp-submission{padding:26px 22px}.cfp-submission h2{font-size:32px}.cfp-submission .eyebrow{font-size:10px}
+  .cfp-participation .section-heading{margin-bottom:32px}.cfp-participation .section-heading>p{font-size:17px}
+  .cfp-outcomes{grid-template-columns:1fr;gap:28px}.cfp-step{margin-bottom:14px}.cfp-outcomes h3{font-size:27px;margin-bottom:12px}
+  .cfp-challenge-link{margin-top:36px;padding-top:28px}.cfp-challenge-link h3{font-size:26px}
+}
+@media print{.cfp-hero{padding-top:0;background:none}.cfp-hero h1{font-size:40pt}.cfp-hero-grid,.cfp-content-grid{gap:30px}.cfp-at-a-glance strong{font-size:30pt}.cfp-submission,.cfp-outcomes li{break-inside:avoid}.cfp-participation{background:none}}
