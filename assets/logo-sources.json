@@ -58,6 +58,13 @@
       "asset_url": "https://www.hw.ac.uk/",
       "extraction": "Unmodified inline header SVG from the official website.",
       "sha256": "2bebf35719e961e95b5592fca47d58c43111e095e8d65438417237728511aefa"
+    },
+    {
+      "file": "reach-robotics.png",
+      "institution": "Reach Robotics",
+      "source_page": "https://reachrobotics.com/support/brand-assets",
+      "asset_url": "https://reachrobotics.com/assets/Reach.Robotics-Logo.Navy-01.png",
+      "sha256": "a517935ae048358392e4d81b048ad9ab98f0fe468e2457c42534c37a57de0064"
     }
   ],
   "usage": "Institutional affiliations of named organizers and speakers. These logos do not imply sponsorship.",

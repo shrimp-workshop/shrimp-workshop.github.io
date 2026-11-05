@@ -87,9 +87,9 @@
       </div>
     </section>
 
-    <section class="logo-strip" aria-label="Institutions represented by organizers and speakers">
+    <section class="logo-strip" aria-label="Organizations represented by organizers and speakers">
       <div class="container">
-        <div class="logo-strip-heading"><p>Institutions represented by our organizers and speakers</p><div class="logo-strip-actions"><a href="sponsors-institutions.html" class="text-link">Meet the institutions <span aria-hidden="true">↗</span></a></div></div>
+        <div class="logo-strip-heading"><p>Organizations represented by our organizers and speakers</p><div class="logo-strip-actions"><a href="sponsors-institutions.html" class="text-link">Meet the organizations <span aria-hidden="true">↗</span></a></div></div>
         <div class="logo-viewport"><div class="logo-track"><ul class="logo-group">
           <li><span class="brand-logo brand-tum"><img src="assets/logos/tum.svg" alt="Technical University of Munich" width="184" height="80" decoding="async"></span></li>
           <li><span class="brand-logo brand-manchester"><img src="assets/logos/manchester.png" alt="University of Manchester" width="184" height="80" decoding="async"></span></li>
@@ -99,6 +99,7 @@
           <li><span class="brand-logo brand-inria"><img src="assets/logos/inria.svg" alt="Inria" width="184" height="80" decoding="async"></span></li>
           <li><span class="brand-logo brand-heriot-watt"><img src="assets/logos/heriot-watt.svg" alt="Heriot-Watt University" width="184" height="80" decoding="async"></span></li>
           <li><span class="brand-logo brand-robotarium"><img src="assets/logos/robotarium.png" alt="The National Robotarium" width="184" height="80" decoding="async"></span></li>
+          <li><span class="brand-logo brand-reach"><img src="assets/logos/reach-robotics.png" alt="Reach Robotics" width="184" height="80" decoding="async"></span></li>
         </ul></div></div>
       </div>
     </section>
@@ -119,12 +120,16 @@
     <section class="section speakers" id="speakers" aria-labelledby="speakers-title">
       <div class="container">
         <div class="section-kicker"><span class="section-number">02 /</span> INVITED PERSPECTIVES</div>
-        <div class="section-heading"><h2 id="speakers-title">Ideas across<br>environments.</h2><p>Underwater manipulation meets lessons from aerial robotics and contact-aware autonomy.</p></div>
+        <div class="section-heading"><h2 id="speakers-title">Ideas across<br>environments.</h2><p>Underwater manipulation meets aerial robotics, contact-aware autonomy and an industry perspective on small-scale manipulators.</p></div>
         <div class="speaker-grid">
           <article class="speaker"><a class="speaker-portrait" href="https://www.lsu.edu/eng/mie/people/faculty/barbalata.php" aria-label="Corina Barbalata's faculty profile"><img src="assets/images/corina-barbalata.png" width="230" height="230" alt="Corina Barbalata" loading="lazy"><span class="portrait-link" aria-hidden="true">↗</span></a><p class="eyebrow">LOUISIANA STATE UNIVERSITY</p><h3><a href="https://www.lsu.edu/eng/mie/people/faculty/barbalata.php">Corina Barbalata</a></h3><p class="speaker-topic">Underwater manipulation, modelling, perception and control</p></article>
           <article class="speaker"><a class="speaker-portrait" href="https://marco-tognon-robotics.com/" aria-label="Marco Tognon's research profile"><img src="assets/images/marco-tognon.jpg" width="500" height="500" alt="Marco Tognon" loading="lazy"><span class="portrait-link" aria-hidden="true">↗</span></a><p class="eyebrow">INRIA</p><h3><a href="https://marco-tognon-robotics.com/">Marco Tognon</a></h3><p class="speaker-topic">Lessons transferred from aerial manipulation</p></article>
           <article class="speaker"><a class="speaker-portrait" href="https://ignaciocarlucho.github.io/People/" aria-label="Michele Grimaldi on his supervisor's research group page"><img src="assets/images/michele-grimaldi.png" alt="Michele Grimaldi" width="512" height="512" loading="lazy"><span class="portrait-link" aria-hidden="true">↗</span></a><p class="eyebrow">HERIOT-WATT UNIVERSITY / NATIONAL ROBOTARIUM</p><h3><a href="https://ignaciocarlucho.github.io/People/">Michele Grimaldi</a></h3><p class="speaker-topic">Contact-aware autonomy and underwater sampling</p></article>
         </div>
+        <article class="industry-speaker">
+          <a class="brand-logo brand-reach" href="https://reachrobotics.com/" aria-label="Reach Robotics website"><img src="assets/logos/reach-robotics.png" alt="Reach Robotics" width="3044" height="990" loading="lazy"></a>
+          <div><p class="eyebrow">INVITED INDUSTRY PERSPECTIVE · AUSTRALIA</p><h3><a href="https://reachrobotics.com/">Reach Robotics <span aria-hidden="true">↗</span></a></h3><p>The manufacturer’s perspective on small-scale underwater manipulators.</p></div>
+        </article>
       </div>
     </section>
 
@@ -133,7 +138,7 @@
         <div class="challenge-feature-copy">
           <p class="eyebrow">THE SHRIMP CHALLENGE · IN SIMULATION</p>
           <h2 id="challenge-feature-title">Small robots.<br><span>A shared challenge.</span></h2>
-          <p>Bring your approach to underwater manipulation. A common platform, a shared task and two baselines to build on, without needing underwater hardware.</p>
+          <p>Bring your approach to underwater manipulation. A BlueROV2 Heavy with a gripper, pick-and-place and valve-turning tasks, and a working autonomous baseline. No underwater hardware required.</p>
           <a class="button challenge-button" href="challenge.html">Explore the challenge <span aria-hidden="true">↗</span></a>
         </div>
         <figure class="challenge-feature-visual">
@@ -141,7 +146,7 @@
           <figcaption>Underwater vehicle + manipulator <span>Concept illustration</span></figcaption>
         </figure>
       </div>
-      <div class="container challenge-feature-bottom"><span>ROS 2 / Gazebo</span><span>Teleoperation + autonomy</span><a href="challenge.html#challenge-setup">Discover the planned setup <span aria-hidden="true">→</span></a></div>
+      <div class="container challenge-feature-bottom"><span>ROS 2 / Gazebo</span><span>Autonomous baseline · teleoperation reference</span><a href="challenge.html#challenge-setup">Discover the planned setup <span aria-hidden="true">→</span></a></div>
     </section>
 
     <section class="section programme" id="programme" aria-labelledby="programme-title">
@@ -149,14 +154,14 @@
         <div class="programme-intro"><div class="section-kicker"><span class="section-number">03 /</span> DRAFT PROGRAMME</div><h2 id="programme-title">A half-day.<br><span class="accent">A common direction.</span></h2><p>Talks, contributed work and a shared challenge feed into a focused discussion of what comes next.</p><div class="programme-status"><span class="status-dot" aria-hidden="true"></span> Tentative morning schedule</div><p class="small-note">The date, room and session time are to be confirmed. This schedule will shift if an afternoon slot is assigned.</p></div>
         <div class="schedule-wrap"><table class="schedule"><caption class="sr-only">Tentative workshop morning schedule, 08:30 to 12:30</caption><thead><tr><th scope="col">TIME</th><th scope="col">SESSION &amp; FORMAT</th></tr></thead><tbody>
           <tr><th scope="row"><time>08:30</time><span>08:40</span></th><td><h3>Welcome &amp; objectives</h3><p>Scope, guiding questions and the roadmap process</p></td></tr>
-          <tr><th scope="row"><time>08:40</time><span>09:20</span></th><td><h3>Invited talks I</h3><p>Two talks · 15 minutes + 5 minutes Q&amp;A each</p></td></tr>
-          <tr><th scope="row"><time>09:20</time><span>09:50</span></th><td><h3>Contributed presentations</h3><p>5-minute lightning talks and 2-minute poster pitches</p></td></tr>
-          <tr class="schedule-break"><th scope="row"><time>09:50</time><span>10:20</span></th><td><h3>Coffee &amp; posters <span aria-hidden="true">↗</span></h3><p>10 regular contributions + the top 3 challenge teams</p></td></tr>
-          <tr><th scope="row"><time>10:20</time><span>11:00</span></th><td><h3>Invited talks II</h3><p>Two talks · 15 minutes + 5 minutes Q&amp;A each</p></td></tr>
-          <tr><th scope="row"><time>11:00</time><span>11:20</span></th><td><h3><a href="challenge.html">Simulation challenge <span aria-hidden="true">↗</span></a></h3><p>Setup, selected results and shared lessons</p></td></tr>
-          <tr><th scope="row"><time>11:20</time><span>12:05</span></th><td><h3>Structured panel</h3><p>Two prepared slides per panelist, open questions and moderated discussion</p></td></tr>
-          <tr class="schedule-highlight"><th scope="row"><time>12:05</time><span>12:25</span></th><td><span class="schedule-label">THE SHARED OUTCOME</span><h3>Roadblock &amp; Action Synthesis</h3><p>Priorities, responsibilities and next steps</p></td></tr>
-          <tr><th scope="row"><time>12:25</time><span>12:30</span></th><td><h3>Closing</h3><p>Recognition and follow-up</p></td></tr>
+          <tr><th scope="row"><time>08:40</time><span>09:20</span></th><td><h3>Invited talks I &amp; II</h3><p>Two talks · 15 minutes + 5 minutes Q&amp;A each</p></td></tr>
+          <tr><th scope="row"><time>09:20</time><span>09:50</span></th><td><h3>Contributed lightning talks &amp; poster pitches</h3><p>Selected 5-minute lightning talks and 2-minute poster pitches</p></td></tr>
+          <tr><th scope="row"><time>09:50</time><span>10:10</span></th><td><h3><a href="challenge.html">Simulation challenge <span aria-hidden="true">↗</span></a></h3><p>Setup recap, selected results and shared lessons</p></td></tr>
+          <tr class="schedule-break"><th scope="row"><time>10:10</time><span>10:40</span></th><td><h3>Coffee &amp; posters <span aria-hidden="true">↗</span></h3><p>Up to 10 regular contributions + the top 3 challenge teams</p></td></tr>
+          <tr><th scope="row"><time>10:40</time><span>11:20</span></th><td><h3>Invited talks III &amp; IV</h3><p>Two talks · 15 minutes + 5 minutes Q&amp;A each</p></td></tr>
+          <tr><th scope="row"><time>11:20</time><span>12:00</span></th><td><h3>Structured panel</h3><p>Four panelists and a moderator · prepared perspectives, open questions and discussion</p></td></tr>
+          <tr class="schedule-highlight"><th scope="row"><time>12:00</time><span>12:25</span></th><td><span class="schedule-label">THE SHARED OUTCOME</span><h3>Roadblock &amp; Action Synthesis</h3><p>Priorities, responsibilities and next steps</p></td></tr>
+          <tr><th scope="row"><time>12:25</time><span>12:30</span></th><td><h3>Closing</h3><p>Recognition, Poster Award and follow-up</p></td></tr>
         </tbody></table></div>
       </div>
     </section>
@@ -195,7 +200,7 @@
         <p class="design-credit">Website designed by <a href="https://www.alportakci.com/">Alp Ortakci</a></p>
         <details class="credits">
           <summary>Image &amp; logo credits <span class="footer-credits-symbol" aria-hidden="true">+</span></summary>
-          <div class="credits-content"><p>SHRIMP stands for Small-scale Hardware and Robotics for Intervention and Manipulation in Practice. The pixel BlueROV2 scene is an original illustration inspired by <a href="https://bluerobotics.com/learn/newton-subsea-gripper-installation/">Blue Robotics’ vehicle and gripper reference</a>. It does not specify the final challenge platform or task.</p><p>Underwater photograph: Oceaneering, donated to the public domain by Duncan McLean and uploaded by Frank van Mierlo. <a href="https://commons.wikimedia.org/wiki/File:ROV_working_on_a_subsea_structure.jpg">Original photograph and source</a>. A work-class vehicle is shown as context for underwater intervention, not as the workshop’s small-scale platform.</p><p>Portraits from the public profiles of <a href="https://www.lsu.edu/eng/mie/people/faculty/barbalata.php">Corina Barbalata</a>, <a href="https://marco-tognon-robotics.com/">Marco Tognon</a> and <a href="https://www.ce.cit.tum.de/en/itr/sosnowski/">Stefan Sosnowski</a>. Additional portraits: <a href="https://www.alportakci.com/">Alp Ortakci</a>, <a href="https://sladalley.github.io/">Seyonne Leslie-Dalley</a>, <a href="https://www.tuhh.de/mum/team/wimi/nathalie-bauschmann">Nathalie Bauschmann</a>, <a href="https://cradlerobotics.co.uk/about/team/">Pawel Ladosz</a>, <a href="https://ignaciocarlucho.github.io/People/">Michele Grimaldi</a>, <a href="https://annualreport.mbari.org/2023/">Giancarlo Troni</a>, <a href="https://hippocampusrobotics.github.io/people/">Daniel A. Duecker</a>. Portrait rights remain with their respective owners.</p><p>Institutional logos from official sources: <a href="https://www.tum.de/en/">Technical University of Munich</a> · <a href="https://www.manchester.ac.uk/">University of Manchester</a> · <a href="https://www.tuhh.de/tuhh/en/startpage">Hamburg University of Technology</a> · <a href="https://annualreport.mbari.org/2023/">Monterey Bay Aquarium Research Institute</a> · <a href="https://www.lsu.edu/">Louisiana State University</a> · <a href="https://new.inria.cl/es/node/616">Inria</a> · <a href="https://www.hw.ac.uk/">Heriot-Watt University</a> · <a href="https://thenationalrobotarium.com/">The National Robotarium</a>. The marks identify affiliations and remain the property of their respective owners.</p></div>
+          <div class="credits-content"><p>SHRIMP stands for Small-scale Hardware and Robotics for Intervention and Manipulation in Practice. The pixel BlueROV2 scene is an original illustration inspired by <a href="https://bluerobotics.com/learn/newton-subsea-gripper-installation/">Blue Robotics’ vehicle and gripper reference</a>. It illustrates a pickup sequence rather than the full challenge task or final simulator.</p><p>Underwater photograph: Oceaneering, donated to the public domain by Duncan McLean and uploaded by Frank van Mierlo. <a href="https://commons.wikimedia.org/wiki/File:ROV_working_on_a_subsea_structure.jpg">Original photograph and source</a>. A work-class vehicle is shown as context for underwater intervention, not as the workshop’s small-scale platform.</p><p>Portraits from the public profiles of <a href="https://www.lsu.edu/eng/mie/people/faculty/barbalata.php">Corina Barbalata</a>, <a href="https://marco-tognon-robotics.com/">Marco Tognon</a> and <a href="https://www.ce.cit.tum.de/en/itr/sosnowski/">Stefan Sosnowski</a>. Additional portraits: <a href="https://www.alportakci.com/">Alp Ortakci</a>, <a href="https://sladalley.github.io/">Seyonne Leslie-Dalley</a>, <a href="https://www.tuhh.de/mum/team/wimi/nathalie-bauschmann">Nathalie Bauschmann</a>, <a href="https://cradlerobotics.co.uk/about/team/">Pawel Ladosz</a>, <a href="https://ignaciocarlucho.github.io/People/">Michele Grimaldi</a>, <a href="https://annualreport.mbari.org/2023/">Giancarlo Troni</a>, <a href="https://hippocampusrobotics.github.io/people/">Daniel A. Duecker</a>. Portrait rights remain with their respective owners.</p><p>Institutional logos from official sources: <a href="https://www.tum.de/en/">Technical University of Munich</a> · <a href="https://www.manchester.ac.uk/">University of Manchester</a> · <a href="https://www.tuhh.de/tuhh/en/startpage">Hamburg University of Technology</a> · <a href="https://annualreport.mbari.org/2023/">Monterey Bay Aquarium Research Institute</a> · <a href="https://www.lsu.edu/">Louisiana State University</a> · <a href="https://new.inria.cl/es/node/616">Inria</a> · <a href="https://www.hw.ac.uk/">Heriot-Watt University</a> · <a href="https://thenationalrobotarium.com/">The National Robotarium</a> · <a href="https://reachrobotics.com/support/brand-assets">Reach Robotics</a>. The marks identify affiliations and remain the property of their respective owners.</p></div>
         </details>
       </div>
     </div>
